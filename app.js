@@ -27,7 +27,7 @@ app.use('/guestReview', guestReview);
 app.use('/hostReview', hostReview);
 
 if(process.env.NODE_ENV === 'production') {
-    app.use(express.static('./view/client/build'));
+    app.use(express.static('./view/apartment-review/build'));
   
     const __dirname = path.resolve();
     app.get('/*', (req, res) => {
