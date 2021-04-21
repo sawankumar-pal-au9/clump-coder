@@ -1,0 +1,59 @@
+.wraper {
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.form-wraper {
+    display: flex;
+    justify-content: center;
+}
+
+.form-wraper ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.upload-btn {
+    margin: 10px 0px;
+}
+
+.overall {
+    display: flex;
+    align-items: center;
+}
+
+.overall div {
+    margin: 0px 10px;
+}
+
+.recommend {
+    display: flex;
+    margin: 10px auto;
+}
+
+.recommend input {
+    margin-left: 10px;
+}
+
+.review {
+    margin: 10px auto;
+}
+
+.prvt-review {
+    margin: 10px auto;
+}
+
+@media only screen and (max-width:850px) {
+    .wraper {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .wraper {
+        width: 95%;
+    }
+}

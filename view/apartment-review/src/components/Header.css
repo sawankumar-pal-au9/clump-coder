@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.login {
+    display: flex;
+    font-size: 20px;
+    margin: 10px;
+} 
+
+.logout {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.logout * {
+    font-size: 20px;
+}
+
+.logout button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.logout button:hover {
+    background: rgb(211, 161, 236);
+}
+
+.logout button:active {
+    color: #96fcf7;
+}
