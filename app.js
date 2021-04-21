@@ -31,7 +31,7 @@ if(process.env.NODE_ENV === 'production') {
   
     const __dirname = path.resolve();
     app.get('/*', (req, res) => {
-      res.sendFile(path.resolve(__dirname, 'view', 'client', 'build', 'index.html'), (err) => {
+      res.sendFile(path.resolve(__dirname, 'view', 'apartment-review', 'build', 'index.html'), (err) => {
         if(err) {
           return res.status(404).send(err);
         }
